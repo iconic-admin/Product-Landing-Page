@@ -35,7 +35,7 @@ header {
 }
 
 
-ul {
+nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -43,7 +43,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+nav li {
     padding: 5px;
     border: solid 1px black;
     text-align: center;
@@ -73,6 +73,24 @@ a.nav-link {
 header img {
     height:15rem;
     width: 20rem;
+}
+
+#submit {
+    background-color: #fff100;
+    color: 006bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    border: solid 4px #006bff;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: black;
+    color:white;
 }
 
 video {
